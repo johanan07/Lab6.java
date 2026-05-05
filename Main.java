@@ -8,11 +8,11 @@ public class Main {
         RegistroDisquera departamentoProduccion = RegistroDisquera.getInstance();
 
 
-        departamentoMarketing.registrarArtista("Dua Lipa");
+        departamentoMarketing.registrarArtista("Elvis Presley");
         departamentoMarketing.registrarArtista("The Weeknd");
 
 
-        departamentoProduccion.registrarArtista("Rosalía");
+        departamentoProduccion.registrarArtista("Michael Jackson");
 
 
         departamentoProduccion.mostrarArtistas();
